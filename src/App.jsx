@@ -30,7 +30,7 @@ function App() {
       <Logo
       imgName={"logo"}
       imgDivName={"logo-cont"}
-      img={"/img/LOGO.png"}
+      img={import.meta.env.BASE_URL+"img/LOGO.png"}
        />
     </>
   )
