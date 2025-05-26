@@ -1,11 +1,14 @@
+
+
+
 const images = [
-    {imgName: "img1", img: "/img/1.png"},
-    {imgName: "img2", img: "/img/2.png"},
-    {imgName: "img3", img: "/img/3.png"},
-    {imgName: "img4", img: "/img/4.png"},
-    {imgName: "img5", img: "/img/5.png"},
-    {imgName: "img6", img: "/img/6.png"},
-    {imgName: "img7", img: "/img/7.png"}
+    {imgName: "img1", img: import.meta.env.BASE_URL+"img/1.png"},
+    {imgName: "img2", img: import.meta.env.BASE_URL+"img/2.png"},
+    {imgName: "img3", img: import.meta.env.BASE_URL+"img/3.png"},
+    {imgName: "img4", img: import.meta.env.BASE_URL+"img/4.png"},
+    {imgName: "img5", img: import.meta.env.BASE_URL+"img/5.png"},
+    {imgName: "img6", img: import.meta.env.BASE_URL+"img/6.png"},
+    {imgName: "img7", img: import.meta.env.BASE_URL+"img/7.png"}
 ];
 
 export default images;
